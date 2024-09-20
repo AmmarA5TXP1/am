@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.cont .phone{
+    width: 200px;
+    height: 420px;
+    background-color: rgb(27, 26, 26);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-shadow: 15px  10px 10px 4px rgba(43, 43, 46, 0.568);
+}
+.phone .sciner{
+    width: 90%;
+    height: 35%;
+    background-image: url(Nokia-X20-Wallpapers-Mohamedovic.com-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+H2{
+    position: absolute;
+    color: white;
+    top: 171PX;
+    font-size: 18PX;
+}
+.phone .audio{
+    width: 70px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: rgb(50, 51, 53);
+    position: absolute;
+    top: 12px;
+}
+.allbtn{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    top: 190px;
+}
+.btn1 , .btn2 ,.btn3 ,.btn4{
+    width: 50px;
+    height: 33px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(49, 53, 53);
+}
+.allbtn .btn1{
+    position: absolute;
+    top: 2px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.allbtn .btn2{
+    position: absolute;
+    top: 37px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.btn2 ion-icon{
+    rotate: 138deg;
+    font-size: 20px;
+    color: green;
+}
+.btn4 ion-icon{
+    rotate: 138deg;
+    font-size: 20px;
+    color: red;
+}
+.btn1, .btn3 ion-icon{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+.allbtn .btn3{
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius: 0px;
+}
+.allbtn .btn4{
+    position: absolute;
+    top: 37px;
+    right: 0px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius: 0px;
+}
+.allbtn .btncentre{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    top: 12px;
+    border-radius: 12px;
+    left: 70px;
+    background-color:  rgb(49, 53, 53);
+    box-shadow: inset 0px 0px 1px 2px white;
+}
+.num{
+    width: 100%;
+    height: 154px;
+    background-color: rgb(34, 33, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 267px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+}
+span{
+    width: 55px;
+    height: 30px;
+    background-color: rgb(49, 53, 53);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    margin-top:-5px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
